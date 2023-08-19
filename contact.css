@@ -1,0 +1,53 @@
+.wrapper{
+    margin-top: 3rem;
+}
+.wrapper h2{
+    display: contents;
+    align-content: center;
+}
+input {
+    color: black;  
+    background-color: white;
+    padding: 0.4rem 7rem;
+    border: 2px solid purple;
+    border-radius: 10px;
+}
+textarea{
+    color: black;
+    background-color: white;
+    padding: 0.4rem 7rem;
+    border: 2px solid purple;
+    border-radius: 10px;
+}
+.inline{
+    display: flex;
+    justify-content: space-around;
+}
+form{
+    /* width: 100%; */
+    /* justify-content: center;
+    display: grid; */
+    margin-bottom: 4rem;
+}
+label{
+    color: black;
+    margin-bottom: 20px;
+}
+button{
+    color: black;
+    border: 2px solid purple;   
+    height: 10vh;
+    width: 30vh;
+    border-radius: 10px;
+}
+.btn:hover{
+    color: white;
+    background-color: purple;
+    border-radius: 10px;
+}
+.imgs img{
+    width: 32rem;
+    height: 25rem;
+    background:none;
+    margin-top: -5rem;
+}

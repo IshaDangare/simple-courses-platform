@@ -1,0 +1,269 @@
+.banner h1{
+ position: absolute;
+ color: purple;
+ margin-top: -18rem;
+ background-color: transparent;
+ padding-left: 12rem;
+}
+.banner img{
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    /* margin-left: 8rem; */
+}
+.banner button{
+    color: black;
+    border: 2px solid purple;   
+    height: 10vh;
+    width: 30vh;
+    border-radius: 10px;
+    position: absolute;
+    left: 13rem;
+    margin-top: 13rem;
+    
+}
+.banner button a{
+    text-decoration: none;  
+
+}
+.banner button :hover{
+    color: black;
+    font-weight: 700;
+}
+.company {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: white;
+    /* padding: 3rem 0rem ; */
+    /* margin: 2rem 0rem 6rem 0rem; */
+
+}
+.company a {
+    text-align: center;
+    color: rgb(65, 64, 64);
+    font-weight: 600;
+    background-color: transparent;
+    text-decoration: none;
+}
+.company a:hover{
+   font-size: 1.5rem;
+   color: purple;
+}
+.activeCo{
+    font-size: 1.5rem;
+    color: purple !important;
+    text-decoration: dotted !important ;
+}
+.company a img{
+    height: 4rem;
+    width: 10rem;
+    /* margin: 1rem 2rem; */
+    display: flex;
+}
+.headingF{
+    text-align: center;
+
+}
+.headingF h2{
+    background-color: rgb(59, 57, 57);
+    color: white;
+    height: 10vh;
+    width: 100%;
+    align-content: center;
+    display: grid;
+}
+.feeds{
+display: flex;
+margin-bottom: 2rem;
+justify-content: space-around;
+width: 100%;
+}
+
+.feed1{
+    border: 1px solid grey;
+    /* margin: 0rem 1rem; */
+    /* padding: 10px; */
+    text-align: center;
+    background-color:rgb(221 145 232);
+  
+}
+.feed1 img {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+}
+.feed1 button   {
+    background-color: purple;
+    color: white;
+    padding: 0.6rem 2rem;
+    border-radius: 10px;
+    border: 2px solid purple;
+}
+.feed1 button:hover  {
+    background-color: white;
+    color: purple;
+    border: 2px solid purple;
+
+}
+.feed1 h3{
+    background-color: purple;
+    color: white;
+}
+
+
+/* feed over */
+
+
+.beInst{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.inst{
+    background-color: white;
+    width: 20%;
+    margin-top: 7rem;
+}
+.inst h2{
+background-color: white;
+}
+.inst p{
+    background-color: white;
+}
+.inst button{
+    color: white;
+    background-color: black;
+    padding: 1rem 2rem;
+}
+
+
+
+
+/* feed start */
+
+
+
+.feeds1{
+    margin-bottom: 4rem;
+justify-content: space-around;
+width: 80%;
+margin-left: 7rem;
+
+}
+
+.feed2{
+    border: 1px solid grey;
+    /* margin: 0rem 1rem; */
+    /* padding: 10px; */
+    text-align: left;
+    background-color:white;
+    /* margin: 1rem 0.5rem; */
+    border-spacing: 1rem;
+    padding: 1rem 2rem;
+}
+
+.feed2 img {
+    width: 20%;
+    height: 20%;
+    border-radius: 10%;
+}
+.feed2 button   {
+    background-color: purple;
+    color: white;
+    padding: 0.6rem 2rem;
+    border-radius: 10px;
+    border: 2px solid purple;
+}
+.feed2 button:hover  {
+    background-color: white;
+    color: purple;
+    border: 2px solid purple;
+
+}
+.feed2 h3{
+    background-color: transparent;
+    color: black;
+}
+
+.detail{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem 0.6rem;
+    border-radius: 10px;
+    background-color: white;
+}
+.detail .corse-detail{
+    background-color: white;
+    width:55%;
+}
+.detail .price{
+    background-color: white;
+}
+.detail .price p{
+    background-color: white;
+    font-size: 25px;
+}
+.corse-detail h4{
+    background-color: white;
+    margin: 0rem;
+}
+.corse-detail span{
+    background-color: white;
+}
+.corse-detail .time{
+    display: flex;
+    background-color: white;
+}
+.corse-detail p{
+    margin: 0rem;
+    background-color: white;
+}
+.card {
+    position: relative;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    padding: 1.4rem 2.5rem;
+    margin-top: -19rem;
+    display:  none;
+}
+.card h1{
+    background-color: white;
+}
+  .card.price {
+    color: grey;
+    font-size: 22px;
+    background-color: white;
+  }
+  .card p{
+    background-color: white;
+  }
+  .card button {
+    background-color: purple;
+    color: white;
+    padding: 0.6rem 2rem;
+    border-radius: 10px;
+    border: 2px solid purple;
+    cursor: pointer;
+    width: 60%;    
+    margin: 0.2rem;
+}
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .beInst .detail img {
+    height: 23rem;
+    width: 30rem;
+}
+.flex{
+    display: flex;
+}
+/* .feed2 :hover + .card{
+    display: block;
+} */

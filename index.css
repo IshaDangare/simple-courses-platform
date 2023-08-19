@@ -1,0 +1,301 @@
+*{
+    background-color: #e2c6e6;
+}
+.mainHeader{
+    display: flex;
+    justify-content: space-between;
+    height: 13vh;
+    /* border-radius: 10px; */
+    border:1px solid  rgb(174, 26, 174);
+    background-color: #1c1b1b;
+}
+.logo{
+    background-color: #1c1b1b;
+    border-radius: 10px;
+    
+}
+.logo a{
+    background-color: #1c1b1b;
+}
+.logo img{
+    height: 11vh;
+    width: 100%;
+    background-color: #1c1b1b;
+    border-radius: 10px;
+}
+.logo center {
+    background-color: transparent;
+}
+/* .logo center p{
+    font-size: 15px;
+    color: rgb(119, 79, 156);
+    display: inline;
+    background-color: transparent;
+} */
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1b1b;
+    border-radius: 10px;
+}
+header ul li{
+    text-transform: capitalize;
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(174, 26, 174);
+    padding: 1rem 2rem;
+    background-color: #1c1b1b;
+}
+header ul li a:hover{
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(107, 20, 136);
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.active{
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;  
+}
+
+/*  
+
+
+
+*/
+
+.banner h1{
+ position: absolute;
+ color: purple;
+ margin-top: -18rem;
+ background-color: transparent;
+ padding-left: 12rem;
+}
+.banner img{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+}
+.banner button{
+    color: black;
+    border: 2px solid purple;   
+    height: 10vh;
+    width: 30vh;
+    border-radius: 10px;
+    position: absolute;
+    left: 13rem;
+    margin-top: 13rem;
+    
+}
+.banner button a{
+    text-decoration: none;  
+
+}
+.banner button :hover{
+    color: black;
+    font-weight: 700;
+}
+.company {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 3rem 0rem ;
+    margin: 2rem 0rem 6rem 0rem;
+
+}
+.company a {
+    text-align: center;
+}
+.company a img{
+    height: 4rem;
+    width: 10rem;
+    /* margin: 1rem 2rem; */
+    display: flex;
+}
+.headingF{
+    text-align: center;
+
+}
+.headingF h2{
+    background-color: rgb(59, 57, 57);
+    color: white;
+    height: 10vh;
+    width: 100%;
+    align-content: center;
+    display: grid;
+}
+.feeds{
+display: flex;
+margin-bottom: 2rem;
+}
+
+.feed1{
+    border: 1px solid grey;
+    margin: 0rem 1rem;
+    padding: 10px;
+    text-align: center;
+    background-color: purple;
+}
+.feed1 p{
+    background-color: purple;
+    color: white;
+}
+.feed1 h3{
+    background-color: purple;
+    color: white;
+}
+.beInst{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.inst{
+    background-color: white;
+    width: 20%;
+    margin-top: 7rem;
+}
+.inst h2{
+background-color: white;
+}
+.inst p{
+    background-color: white;
+}
+.inst button{
+    color: white;
+    background-color: black;
+    padding: 1rem 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  
+
+
+
+*/
+
+footer{
+  bottom: 0;
+  display: flex;
+  position: static;
+  justify-content: space-around;
+  width: 99%;
+  background-color: #1c1b1b;
+}
+footer .logo{
+    background-color: #1c1b1b;
+    border-radius: 10px;
+    align-content: center;
+}
+footer .logo img{
+    height: 20vh;
+    width: 100%;
+    background-color: #1c1b1b;
+    border-radius: 10px;
+}
+footer .logo p{
+    /* width: 20%; */
+}
+
+footer .icons{
+display: flex;
+background-color: #1c1b1b;
+}
+footer ul li{
+    background-color: #1c1b1b;
+    list-style: none;
+    display: grid;
+    align-items: center;
+}
+
+center{
+    background-color: #1c1b1b;
+    width: 20%;
+}
+footer ul li a{ 
+    background-color: #1c1b1b;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+footer .navbar{
+    background-color: #1c1b1b;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    width: 16%;
+    text-decoration: none;
+}
+footer .navbar p{
+    background-color: #1c1b1b;
+    color: white;
+}
+footer .icons li{
+list-style: none;
+background-color: #1c1b1b;
+}
+.fa {
+    padding: 2px 5px;
+    font-size: 7px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
